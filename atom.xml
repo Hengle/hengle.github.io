@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="hengle.github.io/"/>
-  <updated>2019-01-17T14:11:42.184Z</updated>
+  <updated>2019-06-06T10:40:42.849Z</updated>
   <id>hengle.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>获取安卓应用在手机内存的使用率</title>
+    <link href="hengle.github.io/2019/06/06/adbLog/"/>
+    <id>hengle.github.io/2019/06/06/adbLog/</id>
+    <published>2019-06-06T10:19:51.823Z</published>
+    <updated>2019-06-06T10:40:42.849Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="获取安卓应用在手机内存的使用率"><a href="#获取安卓应用在手机内存的使用率" class="headerlink" title="获取安卓应用在手机内存的使用率"></a>获取安卓应用在手机内存的使用率</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> <span class="literal">true</span>; <span class="keyword">do</span> dumpsys meminfo com.tencent.tmgp.bh3 | grep TOTAL ; sleep 2; <span class="keyword">done</span>;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;获取安卓应用在手机内存的使用率&quot;&gt;&lt;a href=&quot;#获取安卓应用在手机内存的使用率&quot; class=&quot;headerlink&quot; title=&quot;获取安卓应用在手机内存的使用率&quot;&gt;&lt;/a&gt;获取安卓应用在手机内存的使用率&lt;/h1&gt;&lt;figure class=&quot;highli
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>svn钩子强制提交注释和限制指定类型文件提交</title>
